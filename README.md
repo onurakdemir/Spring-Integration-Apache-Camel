@@ -1,0 +1,1 @@
+After Every Change for properties folder, run "mvn clean install"
