@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import com.netas.ososintegration.domain.Product;
 import com.netas.ososintegration.repositories.ProductRepository;
 
-@Component
+//@Component
 public class ProductLoader implements ApplicationListener<ContextRefreshedEvent> {
 
     private ProductRepository productRepository;
