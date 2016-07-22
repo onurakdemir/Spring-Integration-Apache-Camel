@@ -3,8 +3,6 @@ package com.netas.ososintegration.configuration;
 import java.sql.SQLException;
 import javax.sql.DataSource;
 import javax.validation.constraints.NotNull;
-
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
