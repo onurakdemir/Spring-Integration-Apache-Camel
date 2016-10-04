@@ -11,7 +11,6 @@ import com.netas.ososintegration.services.ProductService;
 
 @Controller
 public class ProductController {
-
 //    private ProductService productService;
 //
 //    @Autowired

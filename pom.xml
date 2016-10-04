@@ -18,6 +18,13 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
+	<repositories>
+		<repository>
+	    	<id>netas-internal-repository</id>
+	      	<url>http://nexus.tge.netas.com.tr/nexus/content/repositories/netas-proxy/</url>
+	    </repository>
+  	</repositories>	
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>

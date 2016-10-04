@@ -19,19 +19,11 @@ public class OsfValues {
 	
 	private String hour;
 	
-	private String meterid;
+	private String meter_id;
 	
 	private String flag;
 	
 	private Double result;
-
-	public String getMeterid() {
-		return meterid;
-	}
-
-	public void setMeterid(String meterid) {
-		this.meterid = meterid;
-	}
 
 	public Double getResult() {
 		return result;
@@ -87,6 +79,14 @@ public class OsfValues {
 
 	public void setId(Integer id) {
 		this.id = id;
+	}
+
+	public String getMeter_id() {
+		return meter_id;
+	}
+
+	public void setMeter_id(String meter_id) {
+		this.meter_id = meter_id;
 	}
 	
 	

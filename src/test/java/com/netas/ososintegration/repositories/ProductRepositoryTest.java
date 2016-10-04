@@ -6,6 +6,7 @@ import static org.junit.Assert.assertNull;
 
 import java.math.BigDecimal;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,7 @@ import com.netas.ososintegration.domain.Product;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = {RepositoryConfiguration.class})
-public class ProductRepositoryTest {
+@Ignore public class ProductRepositoryTest {
 
     private ProductRepository productRepository;
 

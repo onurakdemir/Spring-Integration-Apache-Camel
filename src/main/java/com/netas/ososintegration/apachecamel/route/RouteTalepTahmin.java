@@ -8,12 +8,12 @@ import org.springframework.stereotype.Component;
 public class RouteTalepTahmin extends RouteBuilder{
 	@Override
 	public void configure() throws Exception {
-		restConfiguration()
-			.component("netty4-http")
-			.contextPath("piq")
-			.bindingMode(RestBindingMode.json)
-			.host("0.0.0.0")
-			.port(8980);
+//		restConfiguration()
+//			.component("netty4-http")
+//			.contextPath("piq")
+//			.bindingMode(RestBindingMode.json)
+//			.host("0.0.0.0")
+//			.port(8980);
 
 		rest()
 			.get("/test")
